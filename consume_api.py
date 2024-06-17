@@ -1,5 +1,5 @@
 import requests
-animeName = 'mushoku'
+animeName = input("Enter anime name:")
 url = 'https://api.jikan.moe/v4/anime?q='+animeName+'&sfw'
 
 response = requests.get(url)
